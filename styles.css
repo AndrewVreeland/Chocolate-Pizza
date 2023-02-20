@@ -1,0 +1,110 @@
+*{margin:0; padding: 0; box-sizing: border-box; }
+
+nav{
+  height: 100px;
+  
+  display:flex;
+  justify-content: space-between;
+  align-items:start;
+ }
+
+h4{
+  font-family: 'Satisfy', cursive;
+  font-weight: bolder;
+}
+
+.logo img{
+  height: 48px;
+  margin-right: 3px;
+}
+
+.logo-container {
+  /* height: 50%; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 3px solid black; */
+}
+
+.logo {
+  /* border-color: blue;
+  border-style: solid;
+  border-width: 2px; */
+}
+
+.logo-text{
+  height: 50px;
+  /* border-color: red;
+  border-style: solid;
+  border-width: 5px; */
+
+}
+
+.logo-text h4 {
+  font-family: 'Satisfy', cursive;
+  font-weight: bolder;
+  font-size: 1.4em; 
+}
+
+.logo-text p {
+  font-size: 0.4em;
+  color:light gray;
+}
+
+.social-media-container{
+  margin-top: 11.3px;
+  display: flex;
+  /* border: 2px solid green; */
+}
+
+.icons {
+  margin-right: 1.5px;
+}
+
+#pinterest{
+  margin-right: 8px;
+}
+
+#main-Header {
+  /* border-color: black;
+  border-style: solid;
+  border-width: 1px; */
+
+}
+
+#print{
+  float: right;
+}
+
+#list-Image {
+  background-image: url(images/list-bg.png);
+  
+}
+
+h1{
+  font-family: 'Recursive', sans-serif;
+}
+
+/* #list-Image{
+  border-image: 
+} */
+
+#list-Text{
+  font-family: 'Patrick Hand', cursive;
+}
+
+#footer-Main{
+  /* border-color: black;
+  border-style: solid; */
+}
+button{
+  float:right;
+}
+
+#vanessa-Info{
+  float:right;
+}
+
+footer{
+  display:flexbox; 
+}
